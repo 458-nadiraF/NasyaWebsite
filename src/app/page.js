@@ -1,6 +1,8 @@
-
-import HerbOilWebsite from '../components/HerbOilWebsite'
-
 export default function Home() {
-  return <HerbOilWebsite />
+  return (
+    <main>
+      {/* @ts-expect-error Async Server Component */}
+      <HerbOilWebsite />
+    </main>
+  );
 }
