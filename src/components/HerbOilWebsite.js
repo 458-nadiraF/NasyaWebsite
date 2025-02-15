@@ -1,4 +1,4 @@
-
+'use client';
 import React, { useState, useEffect } from 'react';
 import { ChevronDown, ChevronUp, MessageCircle, ShoppingBag, ChevronLeft, ChevronRight } from 'lucide-react';
 
