@@ -95,7 +95,7 @@ const HerbOilWebsite = () => {
     const message = encodeURIComponent(
       `Name: ${whatsappForm.name}\nMessage: ${whatsappForm.message}`
     );
-    window.open(`https://wa.me/1234567890?text=${message}`);
+    window.open(`https://wa.me/6285171048680?text=${message}`);
   };
 
   return (
@@ -103,7 +103,7 @@ const HerbOilWebsite = () => {
       {/* Header */}
       <header className="bg-black text-white py-6">
         <div className="container mx-auto px-4">
-          <h1 className="text-3xl font-bold text-center">Natural Herb Massage Oils</h1>
+          <h1 className="text-3xl font-bold text-center">Nasya</h1>
         </div>
       </header>
 
